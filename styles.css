@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffffff00;
+    padding: 20px;
+    width: 800px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea, button {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #0b0b0b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #747975;
+  }
+  
+  #commentsList {
+    margin-top: 20px;
+    text-align: left;
+    overflow-y: scroll;
+    max-height: 500px;
+  }
